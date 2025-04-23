@@ -11,3 +11,6 @@ docker run -v $(pwd)/input:/opt/codebase -v $(pwd)/output:/opt/tutorial -e "DEEP
 
 ### Known issues
 Если появляется ошибка _"This model's maximum context length is 65536 tokens. However, you requested 82942 tokens (82942 in the messages, 0 in the completion). Please reduce the length of the messages or completion."_ - нужно уменьшить количество/объем файлов репозитория. К сожалению, API Deepseek ограничено 65к токенов в контексте.
+
+### Credits
+Докер имплементация https://github.com/The-Pocket/Tutorial-Codebase-Knowledge/tree/mainhttps://github.com/The-Pocket/Tutorial-Codebase-Knowledge
