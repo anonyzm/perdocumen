@@ -16,4 +16,4 @@ COPY call_llm.py /opt/perdocumen/utils/call_llm.py
 RUN chmod +x /opt/perdocumen/main.py
 
 #ENTRYPOINT ["python"]
-CMD ["python", "/opt/perdocumen/main.py", "--dir", "/opt/codebase", "--output", "/opt/tutorial", "--max-size", "70000", "--include"]
+CMD ["python", "/opt/perdocumen/main.py", "--dir", "/opt/codebase", "--output", "/opt/tutorial", "--max-size", "70000"]
